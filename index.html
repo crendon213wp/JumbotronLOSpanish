@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumbotron LO Design - Espanol</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- header section -->
+    <head>
+        <div class="container" id="header">
+            <div class="row row row-cols-3 text-lg-center py-3">
+                <div class="col-lg-8 text-lg-left">
+                    <img src="https://support.fidf.org/images/content/pagebuilder/fidf_logo_100.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-2">
+                    <img src="https://support.fidf.org/images/content/pagebuilder/CharityNav_4Star_100x100.png" class="img-fluid" alt="...">
+                </div>
+                <div class="col-lg-2">
+                    <img src="https://support.fidf.org/images/content/pagebuilder/charitywatch_seal_129x100.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+    </head>
+    <!-- end of header section -->
+
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 px-0">
+                <img src="https://support.fidf.org/images/content/pagebuilder/FIDF_Passover_LandingPage_a.png" id="jumbotron-image" class="img-fluid" alt="...">
+            </div>
+        </div>
+    </div>
+    <!-- End of Jumbotron -->
+
+    <!-- brief description -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>
+                    Nos inspiramos en los intrépidos soldados de las FDI que una y otra vez se enfrentan a todos los desafíos que se les presentan. Ahora es el momento de apoyarlos mientras luchan día y noche para proteger la libertad de Israel y los judíos en todo el mundo.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- end of description -->
+
+    <!-- Donation Form -->
+    <div class="container" id="donationForm">
+        <!-- Gift Frequency -->
+        <div class="row">
+            <div class="col">
+                <h2>Frecuencia De Regalo</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <button type="button" class="btn btn-secondary btn-lg btn-block"><h4>Regalo De Una Vez</h4></button>
+            </div>
+            <div class="col-md-4 mb-3">
+                <button type="button" class="btn btn-secondary btn-lg btn-block"><h4>Regalo Mensual</h4></button>
+            </div>
+            <p class="phrase">
+            &ast; Un regalo mensual hace aún más para ayudar a los valientes soldados de Israel.
+            </p>            
+        </div>
+        <!-- End of Gift Frequency -->
+
+        <!-- Donation Buttons -->
+        <div class="row mt-5" id="gift-amount">
+            <div class="col">
+                <h6>&ast; Seleccione el monto del regalo</h6>
+            </div>
+        </div>
+        <form action="">
+            <div class="row" id="buttons">
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-secondary btn-block"><h5>$36</h5></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-secondary btn-block"><h5>$118</h5></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-secondary btn-block"><h5>$180</h5></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-secondary btn-block"><h5>$360</h5></button>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <button type="button" class="btn btn-secondary btn-block"><h5>$500</h5></button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-secondary btn-block other-button"><h5>Otra</h5></button>
+                    <input type="otheramount" class="form-control" id="otherAmount" placeholder="$ Cantidad">
+                </div>
+            </div>
+        </form>
+        <!-- End of Donation Buttons -->
+
+        <hr>
+        <!-- Honor/Memorial Information -->
+        <div class="row" id="memorial">
+            <div class="col">
+               <h3>Información de Honor/Memorial</h3>
+               <div class="memorial">
+                    <form action="">
+                        <div class="row form-group form-check">
+                            <div class="col py-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Clic aquí para solicitar una tarjeta electrónica de tributo </label>
+                            </div>                            
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class="form-row row">
+                            <div class="form-group col-md-3">
+                                <label class="mr-sm-2" for="inlineFormCustomSelect">Tipo de regalo de tributo:</label>
+                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option selected>Seleccionar...</option>
+                                <option value="1">En memoria de</option>
+                                <option value="2">En honor de</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-9">
+                                <div class="">
+                                <label for="mr-sm-4 exampleInputEmail1">Ingrese el nombre que está honrando o dando en memoria de:
+                                </label>
+                                <input type="email" class="form-control mr-sm-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class="row form-group form-check">
+                            <div class="col py-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Clic aquí para enviar esta tarjeta electrónica de tributo por correo electrónico y elija los detalles de envío</label>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class="row form-row">
+                            <div class="col">
+                                <label for="exampleFormControlTextarea1">Direcciones de correo electrónico del destinatario (separadas por comas):</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="La longitud máxima para esta entradad es 255 caracteres."></textarea>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class="row form-group">
+                            <div class="col py-3">
+                                <label for="exampleInputEmail1">Línea de asunto de la notificación por correo electrónico:</label>
+                                <input type="subjectLine" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class="row form-row">
+                            <div class="col">
+                                <label for="exampleFormControlTextarea1">Mensaje personal. Firme este mensaje con los nombres que desee que se enumeren para el destinatario.</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="La longitud máxima para esta entradad es 255 caracteres."></textarea>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class="row form-group form-check">
+                            <div class="col py-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Clic aquí para solicitar una tarjeta electrónica de tributo</label>
+                            </div>
+                        </div>
+                    </form>
+               </div>
+            </div>
+        </div>
+        <!-- End of Honor/Memorial Information -->
+
+        <hr>
+
+        <!-- Billing Information -->
+        <div class="row" id="billing">
+            <div class="col">
+                <h3>Datos de facturación</h3>
+                <form>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">Primer nombre</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Primer nombre" required>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault02">Apellido</label>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="Apellido" required>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                          <label for="validationDefault01">Dirección</label>
+                          <input type="text" class="form-control" id="validationDefault01" placeholder="Dirección" required>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="validationDefault02">Apto/Caja/Unidad/Suite</label>
+                          <input type="text" class="form-control" id="validationDefault02" placeholder="apt">
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationDefault02">Dirección de correo electrónico:</label>
+                            <input type="text" class="form-control" id="validationDefault02" placeholder="correo electrónico" required>
+                          </div>
+                      </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault03">La Ciudad</label>
+                        <input type="text" class="form-control" id="validationDefault03" required>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationDefault04">Estado</label>
+                        <select class="custom-select" id="validationDefault04" required>
+                          <option selected disabled value="">Seleccionar...</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationDefault05">Código Postal</label>
+                        <input type="text" class="form-control" id="validationDefault05" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                            Acepto los términos y condiciones
+                        </label>
+                      </div>
+                    </div>
+                    <p>Recibirá actualizaciones por correo electrónico de FIDF. Puedes darte de baja en cualquier momento.</p>
+                  </form>
+            </div>
+        </div>
+        <!-- End of Billing Information -->
+
+        <hr>
+
+        <!-- Payment Method -->
+        <div class="row" id="payment">
+            <div class="col">
+                <h3>Información del pago </h3>
+                &nbsp;
+                <h4>Método de Pago:</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-4 mb-3">
+                <button type="button" class="btn btn-warning btn-block text-white"><h3>Tarjeta de Crédito</h3></button>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-3">
+                <button type="button" class="btn btn-warning btn-block text-white"><h3>Cuenta Bancaria</h3></button>
+            </div>
+            <div class="col-lg-3 col-md-4 mb-3">
+                <button type="button" class="btn btn-warning btn-block text-white"><h3>PayPal</h3></button>
+            </div>
+        </div>
+
+        <div id="creditCard">
+            <form>
+                <div class="form-row">
+                  <div class="col-lg-4">
+                    <label for="inputEmail4">Número de tarjeta de crédito:</label>
+                    <input type="text" class="form-control" placeholder="Card Numbers" required>
+                  </div>
+                  <div class="form-group col-lg-2">
+                    <label for="inputMonth">Fecha De Expiración:</label>
+                    <select id="inputMonth" class="form-control" required>
+                      <option selected>Elija Mes</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-lg-2">
+                    <label for="inputMonth">&nbsp;</label>
+                    <select id="inputYear" class="form-control" required>
+                      <option selected>Elija Año</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-4">
+                    <label for="inputEmail4">Número CVV: ¿Qué es esto?</label>
+                    <input type="text" class="form-control" placeholder="3 digit security code" required>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check py-3">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                      <label class="form-check-label" for="invalidCheck2">
+                        <p>Sí, quiero que el 100% vaya a Amigos de las Fuerzas de Defensa de Israel(FIDF). Aumente mi cantidad en un 3% para cubrir todas las tarifas de transacciones con tarjeta de crédito, un extra de <strong>$0</strong>, aumentando su donación total a <strong>$0</strong>.</p>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="" id="bank-account">
+            <form action="">
+                <div class="form-row">
+                    <div class="col-lg-4">
+                        <label for="inputEmail4">Número de Ruta Bancaria: ¿Qué es esto?</label>
+                        <input type="text" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="inputEmail4">Número de Cuenta Bancaria:</label>
+                        <input type="text" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="inputEmail4">Verificar Número de Cuenta Bancaria:</label>
+                        <input type="text" class="form-control" placeholder="First name" required>
+                    </div>
+                </div>
+            </form>
+            <form action="">
+                <fieldset class="form-group row py-3">
+                    <legend class="col-form-label col-sm-2 float-sm-left pt-0">Tipo de Cuenta:</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                cuenta de Cheques
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                Cuenta de Ahorros
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <div class="form-check py-3">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                            <p>Acepto utilizar mi cuenta bancaria como método de pago y autorizo a Amigos de las Fuerzas de Defensa de Israel a debitar mi cuenta bancaria para cumplir con mi compromiso de donación.</p>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="row" id="paypal">
+            <form action="">
+                <div class="form-group">
+                    <div class="form-check py-3">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                            <p>Sí, quiero que el 100% vaya a Amigos de las Fuerzas de Defensa de Israel(FIDF). Aumente mi cantidad en un 3% para cubrir todas las tarifas de transacciones con tarjeta de crédito, un extra de <strong>$0</strong>, aumentando su donación total a <strong>$0</strong>.</p>
+                        </label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- End of Payment Method -->
+        <div class="row">
+            <div class="col-md-6 mx-md-auto">
+                <button type="button" class="btn btn-warning btn-lg btn-block text-white"><h3>Done Ahora</h3></button>
+            </div>
+        </div>
+        <div class="row text-center py-3">
+            <div class="col">
+                <p>Su contribución ayudará a financiar importantes proyectos y programas de nuestra organización.</p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <p>Si prefiere hacer una donación por teléfono, llame al 1-888-318-3433 o envíe su cheque a nombre de "Friends of the Israel Defence Forces" por correo postal a PO Box 4224 NY, NY 10163 USA.</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- End of Donation Form  -->
+
+    <!-- footer section -->
+    <footer class="">
+
+        <div class="container-fluid footer">
+            <div class="row">
+  
+                <!-- Quick Links -->
+                <div class="col-sm-12 col-lg-6">
+                    <h3 class="">quick links</h3>
+                    <nav>
+                        <ul class="vertical nav_link">
+                            <li>
+                                <a href="https://www.fidf.org/donate" title="Donate Page">
+                                    <h6>Donate</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.fidf.org/privacy-policy" title="Privacy Policy Page">
+                                    <h6>Privacy Policy</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.fidf.org/careers-fidf" title="Careers Page">
+                                    <h6>Careers</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.fidf.org/contact-us" title="Contact Us Page">
+                                    <h6>Contact Us</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.fidf.org/financials" title="Financials Page">
+                                    <h6>Financials</h6>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.fidf.org/grants-policy" title="Grants Due Diligence Policy Page">
+                                    <h6>Grants Due Diligence Policy</h6>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- End of Quick Links -->
+  
+                <!-- Signup Button -->
+                <div class="col-sm-12 col-lg-6">
+                    <h4 class="">Suscríbete al boletín</h4>
+                        <form class="email">
+                            <div class="form-inline">
+                                <input type="email" class="col-lg-6 col-form-label" id="FooterInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address">
+                                <div class="col-lg-3 pl-lg-0">
+                                    <button type="submit" class="btn btn-primary btn-block"><h6>Hazte Amigo</h6></button>
+                                </div>
+                            </div>                        
+                        </form>
+                    <!-- End of Signup Button -->
+                
+                    <!-- Follow Us -->
+                    <h4 class="">Seguir FIDF</h4>
+                    <div class="nav">
+                        <ul class="social-menu pl-0">
+                            <li>
+                                <a href="https://twitter.com/FIDF" class="fa fa-twitter" target="_blank" title="social media twitter page"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/user/FIDF2008" class="fa fa-youtube" target="_blank" title="social media youtube page"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/friends_of_the_idf" class="fa fa-instagram" target="_blank" title="social media instagram page"></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/FIDFNational" class="fa fa-facebook" target="_blank" title="social media facebook page"></a>
+                            </li>
+                            <li>
+                                <a href="https://vimeo.com/fidf" class="fa fa-vimeo" target="_blank" title="social media vimeo page"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End of Follow Us -->
+                </div>
+            </div>
+  
+        </div>
+  
+    </footer>
+    <!-- End of footer section -->
+
+    <!-- Bottom Section -->
+    <div class="container-fluid" id="btm-section">
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- HQ Address -->
+                <div class="media">
+                    <img src="https://www.fidf.org/wp-content/uploads/elementor/thumbs/fidf-salute-pbgd7njdspd7caf79n9fdvbqv4wizrmub9b4h1xt64.png" class="mr-3" alt="...">
+                    <div class="media-body">
+                        <address>
+                            <p>
+                                Copyright © 2021<br>Friends of the Israel Defense Forces<br>p: 
+                                <strong>
+                                <a style="color: #8c189b!important;" href="tel:2122443118">(212) 244-3118
+                                </a>
+                                </strong> 
+                                f: 
+                                <strong>
+                                <a style="color: #8c189b!important;" href="tel:2122443119">(212) 244-3119
+                                </a>
+                                </strong> PO Box 4224 NY, NY 10163 USA<br>Friends of the Israel Defense Forces is a 501(c)(3) not-for-profit organization
+                            </p>
+                        </address>
+                    </div>
+                </div>
+                <!-- End of HQ Address -->
+            </div>
+
+            <!-- Right Side by Side images -->
+            <div class="col-lg-3 col-sm-3 text-md-right">
+                <img src="https://www.fidf.org/wp-content/uploads/2021/08/footer_logo_1.jpg.webp" class="img-fluid" alt="...">
+            </div>
+            <div class="col-lg-3 col-sm-3">
+                <img src="https://www.fidf.org/wp-content/uploads/2021/08/CharityNavigator4-StarLogo.jpg.webp" class="img-fluid" alt="...">
+            </div>
+            <!-- End of Right Side by Side images -->
+
+        </div>
+    </div>
+    <!-- End of Bottom Section -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="js/apps.js"></script>
+
+</body>
+</html>

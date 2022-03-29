@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.drk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.3;
+}
+
+.ccb {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#donationForm {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#donationForm h2,
+#gift-amount h6,
+#memorial h3,
+#billing h3,
+#payment h3,
+#payment h4 {
+  color: #2b588b;
+}
+
+#donationForm .btn-secondary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+#donationForm .btn-secondary:active,
+#donationForm .btn-secondary:focus {
+  color: #fff;
+  border-color: #005cbf !important;
+  background-color: #0062cc !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.footer {
+  background-color: #667f8d;
+  color: #fff;
+}
+
+.footer h3,
+.footer h4 {
+  text-transform: capitalize;
+  padding: .5rem 0;
+}
+
+.nav_link h6 {
+  font-weight: 500 !important;
+}
+
+.nav_link li:nth-child(even) {
+  width: 50%;
+  float: right;
+  list-style-type: none;
+}
+
+.nav_link li:nth-child(odd) {
+  width: 50%;
+  float: left;
+  list-style-type: none;
+}
+
+.nav_link > li > a {
+  color: #fff;
+}
+
+.nav_link > li > a:hover {
+  color: rgba(160, 202, 231, 0.8);
+  text-decoration: none;
+}
+
+#FooterInputEmail1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 7px solid #8c189b !important;
+  border-radius: 25px 0 0 25px !important;
+  color: #000;
+  font-size: 1.25rem;
+  height: 3.27125rem !important;
+  margin-bottom: 0;
+}
+
+input::-webkit-input-placeholder {
+  color: red;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+input:-ms-input-placeholder {
+  color: red;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+input::-ms-input-placeholder {
+  color: red;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+input::placeholder {
+  color: red;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.form-inline .btn {
+  background-color: #8c189b;
+  border-color: #8c189b;
+  border-radius: 0 25px 25px 0 !important;
+  font-size: 1.25rem;
+  height: 3.27125rem !important;
+}
+
+/* Social Media  */
+.social-menu li {
+  display: inline-block !important;
+}
+
+.fa {
+  margin: 0 10px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: rgba(160, 202, 231, 0.8);
+}
+
+/* Facebook */
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-vimeo,
+.fa-youtube {
+  color: white;
+}
+
+#btm-section {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .form-inline .btn {
+    border-radius: 0 0 0 0 !important;
+    padding: 0 auto;
+  }
+  #FooterInputEmail1 {
+    border-radius: 0px 0px 0px 0px !important;
+    padding: 0 auto;
+  }
+}
